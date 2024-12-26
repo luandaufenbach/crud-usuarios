@@ -1,0 +1,19 @@
+meta {
+  name: usuarios
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/usuarios
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "sidnei",
+    "age": "50",
+    "email": "sidnei@gmail.com"
+  }
+}
